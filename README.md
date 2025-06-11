@@ -1,39 +1,32 @@
-<!--
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
+# twibbon_mrh
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/tools/pub/writing-package-pages).
+A **Flutter package** to create camera overlays with custom Twibbon frames – perfect for photo booths, fun filters, or campaign overlays!
 
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/to/develop-packages).
--->
+<p align="center">
+  <img src="https://github.com/Murihat/twibbon_mrh/blob/main/assets/Screenshot_1749616953.png" width="200" alt="Example-1">
+  <img src="https://github.com/Murihat/twibbon_mrh/blob/main/assets/Screenshot_1749627928.png" width="200" alt="Example-2">
+  <img src="https://github.com/Murihat/twibbon_mrh/blob/main/assets/Screenshot_1749627933.png" width="200" alt="Example-3">
+</p>
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+---
 
-## Features
+## ✨ Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+✅ Load overlay images from assets or network  
+✅ Live camera preview with Twibbon overlay  
+✅ Aspect ratios: `1:1`, `3:4`, `9:16`  
+✅ Pinch to zoom, drag to reposition, rotate support  
+✅ Take pictures with overlay included  
+✅ Save to gallery  
+✅ Share directly from the app  
+✅ Flexible and easy to integrate  
 
-## Getting started
+---
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+## 🚀 Installation
 
-## Usage
+Add to your `pubspec.yaml`:
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
-
-```dart
-const like = 'sample';
-```
-
-## Additional information
-
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+```yaml
+dependencies:
+  twibbon_mrh: ^1.0.0
