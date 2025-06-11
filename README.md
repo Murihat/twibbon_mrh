@@ -2,11 +2,17 @@
 
 A **Flutter package** to create camera overlays with custom Twibbon frames – perfect for photo booths or campaign overlays!
 
-<p align="center">
-  <img src="https://github.com/Murihat/twibbon_mrh/blob/main/assets/Screenshot_1749616953.png" width="200" alt="Example-1">
-  <img src="https://github.com/Murihat/twibbon_mrh/blob/main/assets/Screenshot_1749627928.png" width="200" alt="Example-2">
-  <img src="https://github.com/Murihat/twibbon_mrh/blob/main/assets/Screenshot_1749627933.png" width="200" alt="Example-3">
-</p>
+# Examples
+
+### Example-1
+![Example-1](https://raw.githubusercontent.com/Murihat/twibbon_mrh/main/assets/Screenshot_1749616953.png)
+
+### Example-2
+![Example-2](https://raw.githubusercontent.com/Murihat/twibbon_mrh/main/assets/Screenshot_1749627928.png)
+
+### Example-3
+![Example-3](https://raw.githubusercontent.com/Murihat/twibbon_mrh/main/assets/Screenshot_1749627933.png)
+
 
 ---
 

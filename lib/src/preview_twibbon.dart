@@ -7,13 +7,13 @@ import 'package:share_plus/share_plus.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:screenshot/screenshot.dart';
 
-class Preview extends StatefulWidget {
+class PreviewTwibbon extends StatefulWidget {
   final String? imgAsset, imgNetwork, self;
   final double? defaultScale;
   final bool? isCamera;
   final double? aspectRatio;
 
-  const Preview({
+  const PreviewTwibbon({
     super.key,
     this.imgAsset,
     this.imgNetwork,
@@ -24,10 +24,10 @@ class Preview extends StatefulWidget {
   });
 
   @override
-  State<Preview> createState() => _PreviewState();
+  State<PreviewTwibbon> createState() => _PreviewState();
 }
 
-class _PreviewState extends State<Preview> {
+class _PreviewState extends State<PreviewTwibbon> {
   final ScreenshotController screenshotController = ScreenshotController();
   Offset offset = Offset.zero;
   double scale = 1.0;

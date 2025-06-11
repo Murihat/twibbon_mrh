@@ -5,7 +5,7 @@ import 'package:flutter/services.dart';
 import 'package:camera/camera.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 
-import 'preview.dart';
+import 'preview_twibbon.dart';
 
 class _RectClipper extends CustomClipper<Path> {
   @override
@@ -170,7 +170,7 @@ class _TwibbonizerState extends State<Twibbonizer> with WidgetsBindingObserver {
         Navigator.of(context)
             .push(
           MaterialPageRoute(
-            builder: (context) => Preview(
+            builder: (context) => PreviewTwibbon(
               imgAsset: widget.imgAssets ?? "",
               imgNetwork: widget.imgNetwork ?? "",
               self: xfile.path,
