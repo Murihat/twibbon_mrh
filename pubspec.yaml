@@ -1,6 +1,6 @@
 name: twibbon_mrh
 description: "A Flutter package to create camera overlays with custom Twibbon frames – perfect for photo booths or campaign overlays!"
-version: 0.0.1
+version: 0.0.2
 homepage: https://murihat.com
 repository: https://github.com/Murihat/twibbon_mrh
 issue_tracker: https://github.com/Murihat/twibbon_mrh/issues
@@ -19,6 +19,7 @@ dependencies:
   screenshot: ^3.0.0
   gallery_saver_plus: ^3.2.0
   share_plus: ^10.1.1
+  path_provider: ^2.1.5
 
 dev_dependencies:
   flutter_test:

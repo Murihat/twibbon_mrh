@@ -14,14 +14,14 @@ class Preview extends StatefulWidget {
   final double? aspectRatio;
 
   const Preview({
-    Key? key,
+    super.key,
     this.imgAsset,
     this.imgNetwork,
     this.self,
     this.defaultScale,
     this.isCamera,
     this.aspectRatio,
-  }) : super(key: key);
+  });
 
   @override
   State<Preview> createState() => _PreviewState();

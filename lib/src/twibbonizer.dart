@@ -166,7 +166,7 @@ class _TwibbonizerState extends State<Twibbonizer> with WidgetsBindingObserver {
 
     try {
       final xfile = await controller!.takePicture();
-      if (mounted && xfile != null) {
+      if (mounted) {
         Navigator.of(context)
             .push(
           MaterialPageRoute(
@@ -203,8 +203,10 @@ class _TwibbonizerState extends State<Twibbonizer> with WidgetsBindingObserver {
   }
 
   void showInSnackBar(String message) {
-    ScaffoldMessenger.of(context)
-        .showSnackBar(SnackBar(content: Text(message)));
+    if (mounted) {
+      ScaffoldMessenger.of(context)
+          .showSnackBar(SnackBar(content: Text(message)));
+    }
   }
 
   Widget _slideZoom() {
